@@ -142,7 +142,7 @@ export class DiscordSettings {
 			skipOldMessages: true,
 			useNickname: false,
 			enablePlayingStatus: false,
-			usePlayingStatusMessage: ""
+			usePlayingStatusMessage: "TediCross"
 		};
 	}
 }
