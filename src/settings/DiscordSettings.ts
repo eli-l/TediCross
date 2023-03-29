@@ -1,5 +1,3 @@
-import { string } from "yargs";
-
 interface Settings {
 	token: string;
 	replyLength: number;
