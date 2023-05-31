@@ -4,6 +4,8 @@ WORKDIR /opt/TediCross/
 
 COPY . .
 
+RUN apk add --no-cache python3 g++ make
+
 RUN npm install --production
 
 # The node user (from node:16-alpine) has UID 1000, meaning most people with single-user systems will not have to change UID
